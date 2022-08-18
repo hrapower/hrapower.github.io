@@ -11,7 +11,7 @@
     <script src="js/netcetis.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-primary">
+    <nav class="navbar navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html"><b>NetCETIS</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -48,12 +48,84 @@
     </nav>
 
     <div class="container">
-      <div class="row">
+      <div class="row" style="margin-top: 20px; margin-bottom:20px;">
         <div class="col-12">
           <div class="card" style="width: 100%;">
             <img src="img/img01.jpg" class="card-img-top" alt="Home Office">
             <div class="card-body">
               <h5 class="card-title">Luis C. Santillán  <small class="float-right" style="color: #baadb1;">10 min Ago</small></h5>
+              <p class="card-text">
+                El home office, también conocido en <a href="#">#Mexico</a> como <a href="#">#teletrabajo</a>, es una modalidad laboral en la que los trabajadores pueden realizar sus actividades profesionales vía remota.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <img src="img/haha.svg" alt="icono de wow" width="11%">
+                <img src="img/like.png" alt="icono de like" width="16%" style="margin-left: -6%;">
+                <img src="img/wow.png" alt="icono de wow" width="10%" style="margin-left: -6%;">
+                <span id="reactions">87</span>
+              </li>
+              <li class="list-group-item" style="padding: 0px;">
+                <div class="accordion" id="accordionExample">
+                  <div class="card" style="border: 0px;">
+                    <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-right" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          3 Comentarios
+                        </button>
+                      </h2>
+                    </div>
+                
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body" style="padding: 0px;">
+                        <table class="table table-striped">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <small><b>Juan Perez</b></small><br>
+                                Si, el home office se hizo muy popular con la pandemia de COVID-19
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <small><b>Selene Torres</b></small><br>
+                                No estoy de acuerdo con el home office porque la gente es muy floja.
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <small><b>Javier García</b></small><br>
+                                El home office tiene la ventaja de trabajo por objetivos, puedes planear tu tiempo a tu manera.
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="card-body">
+              <a id="like">
+                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                Me gusta
+              </a>
+              <a id="comment">
+                <span class="float-right"> 
+                  <i class="fa fa-comment-o fa-2" aria-hidden="true"></i> 
+                  Comentar
+                </span> 
+              </a>
+              <textarea id="comentario" rows="2" placeholder="Teclea tu comentario" style="margin-top:15px; width:100%;display: none;"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 20px; margin-bottom:20px;">
+        <div class="col-12">
+          <div class="card" style="width: 100%;">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/mxqEM_1WiG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              <h5 class="card-title">Jose Alberto  <small class="float-right" style="color: #baadb1;">10 min Ago</small></h5>
               <p class="card-text">
                 El home office, también conocido en <a href="#">#Mexico</a> como <a href="#">#teletrabajo</a>, es una modalidad laboral en la que los trabajadores pueden realizar sus actividades profesionales vía remota.
               </p>
