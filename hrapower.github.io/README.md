@@ -1,1 +1,0 @@
-# hrapower.github.io
